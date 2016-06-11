@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+</html>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+	$.ajax({
+		url: './php.php',
+		type: 'get',
+		dataType: 'json',
+		data: {"id":"1"},
+		success:function(msg){
+			console.log(typeof msg);
+			console.log(msg);
+		}
+	});
+	
+</script>

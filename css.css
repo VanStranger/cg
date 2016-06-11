@@ -1,0 +1,71 @@
+#yxbox{
+	position: relative;
+}
+#jd{
+	position: absolute;
+	width:100%;
+	height:100%;
+	text-align: left;
+	font-size: 0;
+	overflow-y: auto;
+	display: none;
+}
+.jd{
+	width:30%;
+	display: inline-block;
+	*display: inline;
+	*zoom:1;
+	position: relative;
+	margin:1.5%;
+}
+.jdimg{
+	width:100%;
+	display: block;
+}
+*{
+	margin:0;
+	padding: 0;
+}
+.jdtime{
+	// position: absolute;
+	// bottom: 0;
+	// right: 0;
+	font-size: 16px;
+	line-height: 1.2;
+	color:#fff;
+	background: #000;
+}
+#words{
+	position: absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:40%;
+	padding:0 10px;
+}
+#title{
+	width:188px;
+	height:50px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 5px;
+	border:1px solid #000;
+}
+.wordsbg{
+	position: absolute;
+	width:100%;
+	height:100%;
+	background: red;
+	-moz-opacity:0.3;
+    filter:alpha(opacity=30);
+    opacity:.30;
+}
+#titlep{
+	position: relative;
+	color: #fff;
+	font-size: 25px;
+	line-height: 50px;
+}
+#says{
+	position: relative;
+}
